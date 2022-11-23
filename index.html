@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterGuest</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper flex">
+            <img src="./img/logo.png" alt="" class="header__logo">
+            <a href="tel:+79684400600" class="header__tel">
+                7 (968) 4-400-600
+            </a>
+            <button class="btn-lang">
+                <svg width="70" height="31" viewBox="0 0 70 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="path-1-inside-1_46_1134" fill="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35 31H70V7L63 0H35V31Z"/>
+                    </mask>
+                    <path d="M70 31V32H71V31H70ZM35 31H34V32H35V31ZM70 7H71V6.58579L70.7071 6.29289L70 7ZM63 0L63.7071 -0.707107L63.4142 -1H63V0ZM35 0V-1H34V0H35ZM70 30H35V32H70V30ZM69 7V31H71V7H69ZM62.2929 0.707107L69.2929 7.70711L70.7071 6.29289L63.7071 -0.707107L62.2929 0.707107ZM35 1H63V-1H35V1ZM34 0V31H36V0H34Z" fill="white" mask="url(#path-1-inside-1_46_1134)"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35 0H0V24L7 31H35V0Z" fill="#CC9C63"/>
+                    <path d="M6.83994 22V10.8H11.4479C12.4399 10.8 13.2879 10.96 13.9919 11.28C14.7066 11.6 15.2559 12.0587 15.6399 12.656C16.0239 13.2533 16.2159 13.9627 16.2159 14.784C16.2159 15.6053 16.0239 16.3147 15.6399 16.912C15.2559 17.4987 14.7066 17.952 13.9919 18.272C13.2879 18.5813 12.4399 18.736 11.4479 18.736H7.99194L8.91994 17.792V22H6.83994ZM14.1679 22L11.3359 17.936H13.5599L16.4079 22H14.1679ZM8.91994 18.016L7.99194 17.024H11.3519C12.2693 17.024 12.9573 16.8267 13.4159 16.432C13.8853 16.0373 14.1199 15.488 14.1199 14.784C14.1199 14.0693 13.8853 13.52 13.4159 13.136C12.9573 12.752 12.2693 12.56 11.3519 12.56H7.99194L8.91994 11.536V18.016ZM23.3591 22.16C21.8231 22.16 20.6177 21.728 19.7431 20.864C18.8791 20 18.4471 18.752 18.4471 17.12V10.8H20.5271V17.04C20.5271 18.192 20.7724 19.0293 21.2631 19.552C21.7644 20.0747 22.4684 20.336 23.3751 20.336C24.2817 20.336 24.9804 20.0747 25.4711 19.552C25.9617 19.0293 26.2071 18.192 26.2071 17.04V10.8H28.2551V17.12C28.2551 18.752 27.8177 20 26.9431 20.864C26.0791 21.728 24.8844 22.16 23.3591 22.16Z" fill="white"/>
+                    <path d="M44.5881 15.456H50.1561V17.168H44.5881V15.456ZM44.7481 20.256H51.0681V22H42.6681V10.8H50.8441V12.544H44.7481V20.256ZM53.3868 22V10.8H55.0988L62.1228 19.424H61.2748V10.8H63.3388V22H61.6268L54.6028 13.376H55.4508V22H53.3868Z" fill="white"/>
+                    </svg>
+            </button>
+            
+            <button class="burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+            <div class="burger__menu">
+                <ul class="burger__list list-reset">
+                    <li class="burger__item">
+                        <a href="#" class="burger__link">
+                            НОМЕРА
+                        </a>
+                    </li>
+                    <li class="burger__item">
+                        <a href="#" class="burger__link">
+                            УСЛУГИ
+                        </a>
+                    </li>
+                    <li class="burger__item">
+                        <a href="#" class="burger__link">
+                            ПРЕИМУЩЕСТВА
+                        </a>
+                    </li>
+                    <li class="burger__item">
+                        <a href="#" class="burger__link">
+                            КОНТАКТЫ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+ 
+      <section class="hero">
+        <div class="container">
+            <h2 class="hero__title">
+                ГОСТЕПРИИМСТВО <br> И КОМФОРТ В ЛЮБОЕ ВРЕМЯ
+            </h2>
+            <div class="form-wrapper">
+                <fieldset class="fieldset">
+
+                    <svg style="display: none;" width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <symbol id="date">
+                            <g>
+                        <path d="M15.5 15.6667V4C15.5 3.08083 14.7525 2.33333 13.8333 2.33333H12.1667V0.666666H10.5V2.33333H5.5V0.666666H3.83333V2.33333H2.16667C1.2475 2.33333 0.5 3.08083 0.5 4V15.6667C0.5 16.5858 1.2475 17.3333 2.16667 17.3333H13.8333C14.7525 17.3333 15.5 16.5858 15.5 15.6667ZM5.5 14H3.83333V12.3333H5.5V14ZM5.5 10.6667H3.83333V9H5.5V10.6667ZM8.83333 14H7.16667V12.3333H8.83333V14ZM8.83333 10.6667H7.16667V9H8.83333V10.6667ZM12.1667 14H10.5V12.3333H12.1667V14ZM12.1667 10.6667H10.5V9H12.1667V10.6667ZM13.8333 6.5H2.16667V4.83333H13.8333V6.5Z"/>
+                    </g>
+                        </symbol>
+                        </svg>
+
+                    <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="hero__form flex">
+                        <div class="input__wrapper">
+                            <input class="form__input" type="number" placeholder="  Выезд">
+                            <svg class="input__svg">
+                                <use xlink:href="#date"></use>
+                            </svg>
+                        </div>
+                        <div class="input__wrapper">
+                        <input class="form__input" type="number" placeholder="  Прибытие">
+                        <svg class="input__svg">
+                            <use xlink:href="#date"></use>
+                        </svg>
+                    </div>
+                        <div class="select__wrapper">
+                            <div class="select__placeholder">
+                                Кол-во гостей
+                            </div>
+                            <select class="select" name="guests" id="guests">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="form__btn">
+                            <svg class="btn__svg" width="239" height="60" viewBox="0 0 239 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M239 0H0V23V60H218L239 37V0Z"/>
+                                </svg>
+                                
+                            <div class="btn__text">НАЙТИ НОМЕР</div>
+                        </button>
+                        
+
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+      </section>  
+
+    </header>
+
+    <section class="rooms">
+        <div class="container rooms__container">
+            <h2 class="rooms__title">
+                КАТЕГОРИИ НОМЕРОВ
+            </h2>
+            <div class="rooms__wrapper flex">
+            <ul class="rooms__list--left list-reset flex">
+                <li class="card flex">
+                    <h3 class="card__title">
+                        Стандарт одноместный
+                    </h3>
+                    <div class="card__descr">
+                        <img class="man--svg" src="./img/man.svg" alt="">
+                        1 односпальная кровать (120 см)
+                    </div>
+                    <div class="card__wrapper">
+                        <span class="card__meters">
+
+                        </span>
+                        <div class="icons__wrapper">
+
+                        </div>
+                        <div class="buttons__wrapper">
+                            <button class="card__btn">
+                                Подробнее
+                            </button>
+                            <button class="card__btn">
+                                Забронировать
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="card flex">
+                    <h3 class="card__title">
+                        Стандарт двухместный
+                    </h3>
+                    <div class="card__descr">
+                        2 односпальные кровати (120 см)
+                    </div>
+                    <div class="card__wrapper">
+                        <span class="card__meters">
+
+                        </span>
+                        <div class="icons__wrapper">
+
+                        </div>
+                        <div class="buttons__wrapper">
+                            <button class="card__btn">
+                                Подробнее
+                            </button>
+                            <button class="card__btn">
+                                Забронировать
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="card flex">
+                    <h3 class="card__title">
+                        Стандарт двухместный
+                    </h3>
+                    <div class="card__descr">
+                        1 двухспальная кровать (180 см)
+                    </div>
+                    <div class="card__wrapper">
+                        <span class="card__meters">
+
+                        </span>
+                        <div class="icons__wrapper">
+
+                        </div>
+                        <div class="buttons__wrapper">
+                            <button class="card__btn">
+                                Подробнее
+                            </button>
+                            <button class="card__btn">
+                                Забронировать
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="card flex">
+                    <h3 class="card__title">
+                        Комфорт двухместный
+                    </h3>
+                    <div class="card__descr">
+                        1 двухспальная кровать (180 см)
+                    </div>
+                    <div class="card__wrapper">
+                        <span class="card__meters">
+
+                        </span>
+                        <div class="icons__wrapper">
+
+                        </div>
+                        <div class="buttons__wrapper">
+                            <button class="card__btn">
+                                Подробнее
+                            </button>
+                            <button class="card__btn">
+                                Забронировать
+                            </button>
+                        </div>
+                    </div>
+                </li>
+
+                
+            </ul>
+
+            <ul class="rooms__list--right list-reset">
+                <li class="card flex">
+                    <h3 class="card__title">
+                        Люкс
+                    </h3>
+                    <div class="card__descr">
+                        1 двухспальная кровать (180 см)
+                    </div>
+                    <div class="card__wrapper">
+                        <span class="card__meters">
+
+                        </span>
+                        <div class="icons__wrapper">
+
+                        </div>
+                        <div class="buttons__wrapper">
+                            <button class="card__btn">
+                                Подробнее
+                            </button>
+                            <button class="card__btn">
+                                Забронировать
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </section>
+      
+
+
+<script src="./index.js"></script>
+</body>
+</html>
